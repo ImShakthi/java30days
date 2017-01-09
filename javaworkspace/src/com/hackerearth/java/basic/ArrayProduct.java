@@ -10,9 +10,11 @@ public class ArrayProduct {
 		// TODO Auto-generated method stub
 		int n;
 		Integer number;
+		
 		BigInteger product = new BigInteger("1");
-		Scanner scan = null;
 		BigInteger power10 = new BigInteger("1000000007");
+
+		Scanner scan = null;
 		try
 		{
 			scan = new Scanner(System.in);
